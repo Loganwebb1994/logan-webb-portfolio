@@ -270,19 +270,48 @@
                     </div>
                 </div>
             </div> -->
-            <div class="project-demo" style="width: 420px; margin-bottom: none">
-                <section class="description" style="margin-bottom: none; padding: 10px;">
-                    <h2>Publish Or Perish</h2>
-                    <p>Publish Or Perish is designed to help writers seeking to have their works published in short story magazines keep track of their stories and submissions. With so many publications out there, it can be hard to keep up with all your submissions, their current status, and deciding which publication is right for your story. Publish or Perish will simplify that process.</p>
-                    <p>It is a single page application created with React, which includes full CRUD functionality and uses a JSON server for storing data. </p>
-                    <p><a href="https://publish-or-perish.herokuapp.com/">Click here</a> to try the app yourself.</p>
-                    <p>email: m@campopiano.com</p>
-                    <p>pass: itsme</p>
-                </section>
-                <section class="video" style="margin-top: none; padding: 10px;">
-                    <iframe width="420" height="345" src="https://www.youtube.com/embed/Y9tWa5cHwQ8">
-                    </iframe>
-                </section>
+            <div class="project_list">
+                <div class="project-demo" style="width: 420px; margin-bottom: none">
+                    <section class="description" style="margin-bottom: none; padding: 10px;">
+                        <h2>Publish Or Perish</h2>
+                        <p>Publish Or Perish is designed to help writers seeking to have their works published in short
+                            story magazines keep track of their stories and submissions. With so many publications out
+                            there, it can be hard to keep up with all your submissions, their current status, and
+                            deciding which publication is right for your story. Publish or Perish will simplify that
+                            process.</p>
+                        <p>It is a single page application created with React, which includes full CRUD functionality
+                            and uses a JSON server for storing data. </p>
+                        <p>Achieved Best Project of the Week badge from Career Karma the week of 02/07/21 - 02/14/21</p>
+                        <p><a href="https://publish-or-perish.herokuapp.com/">Click here</a> to try the app yourself.
+                        </p>
+                        <p>email: m@campopiano.com</p>
+                        <p>pass: itsme</p>
+                    </section>
+                    <section class="video" style="margin-top: none; padding: 10px;">
+                        <iframe width="420" height="345" src="https://www.youtube.com/embed/Y9tWa5cHwQ8">
+                        </iframe>
+                    </section>
+                </div>
+                <div class="project-demo" style="width: 450px; margin-bottom: none">
+                    <section class="description" style="margin-bottom: none; padding: 10px;">
+                        <h2>Python Stock Sweeper</h2>
+                        <p>I completed this project following along with Sam Focht at <a href="https://www.youtube.com/watch?v=oZSNFFdkEP0&list=PLaYT64KWZAEPe5pYXZkVO4Rnt1pyneQzP">https://www.youtube.com/watch?v=oZSNFFdkEP0&list=PLaYT64KWZAEPe5pYXZkVO4Rnt1pyneQzP</a></p>
+                        <h3>How it works</h3>
+                        <p>Downloaded a list of publicly traded companies from <a href="nasdaq.com">nasdaq.com</a>, looped through it to get all of the symbols, then made calls to the TDAmeritrade API to get certain information for each of them, including P/E and PEG ratios, 52 week high and net profit margins. With this information, additional filters allow the user to view only companies that meet a certain criteria.</p>
+                        <h3>Things I learned</h3>
+                        <ul>
+                            <li>How to use pandas to:</li>
+                            <li>Read excel and CSV files;</li>
+                            <li>Create a data frame</li>
+                            <li>How to use Pickle to autocreate and name files</li>
+                            <li>How to create a loop to get all desired information from the api (since the app makes several thousand requests, and the api only allows 500 at a time, used a while loop and incremented start and end points to automatically loop through 500 at a time until all were complete.)</li>
+                        </ul>
+                        <a href="https://github.com/mcampopiano/stock-sweeper-python/blob/main/README.md">Github repository</a>
+                    </section>
+                    <section class="video" style="margin-top: none; padding: 10px;">
+                        <img src="./img/portfolio/Stock_Sweeper.png" alt="Image of python app" style="width: 450px;">
+                    </section>
+                </div>
             </div>
             <!-- Achievements Section -->
             <!-- <div id="achievements" class="text-center">

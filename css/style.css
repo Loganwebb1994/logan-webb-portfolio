@@ -288,6 +288,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b4da8', end
 }
 /* Portfolio Section */
 #portfolio {
+	display: flex;
+	flex-wrap: wrap;
 	padding: 100px 0;
 	background: #f6f6f6;
 }
@@ -627,4 +629,9 @@ header .intro-text {
 
 .exLi {
 	text-align: left;
+}
+
+.project_list {
+	display: flex;
+	/* flex-wrap: wrap; */
 }
