@@ -634,4 +634,5 @@ header .intro-text {
 .project_list {
 	display: flex;
 	/* flex-wrap: wrap; */
+	justify-content: space-between;
 }
