@@ -479,8 +479,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b4da8', end
 /* Contact Section */
 #contact {
 	color: #fff;
-	background: url(../img/contact-bg.jpg) no-repeat center top;
-	background-color: #7bc3d1;
+	
+	background-color:rgba(0,0,0,0.65);
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
