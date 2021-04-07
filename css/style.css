@@ -204,7 +204,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	height: auto;
 	text-align: center;
 	color: #fff;
-	background: url(../img/little-slough.jpg) no-repeat center center ;
+	background: url(../img/little-slough.jpg) no-repeat center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -212,11 +212,12 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 .intro .overlay {
 	padding: 100px 0;
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#6b4da8+0,4977c2+100&0.85+0,0.85+100 */
-	background: -moz-linear-gradient(left, rgba(8a8a8a) 0%, rgba(8a8a8a) 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(left, rgba(8a8a8a) 0%, rgba(8a8a8a) 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to right, rgba(8a8a8a) 0%, rgba(8a8a8a) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-/* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d96b4da8', endColorstr='#d94977c2', GradientType=1 ); IE6-9 */
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,000000+100&0.65+0,0+100;Neutral+Density */
+background: -moz-linear-gradient(top,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+
 }
 .section-title.center {
 	padding: 25px 0 45px 0;
@@ -240,11 +241,12 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 #skills {
 	padding: 100px 0;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#6b4da8+0,4977c2+100 */
-	background: rgb(107,77,168); /* Old browsers */
-	background: -moz-linear-gradient(left, rgba(107,77,168,1) 0%, rgba(73,119,194,1) 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(left, rgba(107,77,168,1) 0%, rgba(73,119,194,1) 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to right, rgba(107,77,168,1) 0%, rgba(73,119,194,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b4da8', endColorstr='#4977c2', GradientType=1 ); /* IE6-9 */
+	background: rgb(0,0,0,0.65); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+
 }
 #skills h2 {
 	color: #fff;
@@ -420,10 +422,10 @@ ol.type li a:hover {
 #achievements {
 	padding: 100px 0;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#6b4da8+0,4977c2+100 */
-	background: rgb(107,77,168); /* Old browsers */
-	background: -moz-linear-gradient(left, rgba(107,77,168,1) 0%, rgba(73,119,194,1) 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(left, rgba(107,77,168,1) 0%, rgba(73,119,194,1) 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to right, rgba(107,77,168,1) 0%, rgba(73,119,194,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	background: rgb(0,0,0,0.65); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b4da8', endColorstr='#4977c2', GradientType=1 ); /* IE6-9 */
 }
 #achievements h2 {
@@ -484,9 +486,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b4da8', end
 #contact .overlay {
 	padding: 100px 0 40px 0;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#6b4da8+0,4977c2+100&0.85+0,0.85+100 */
-	background: -moz-linear-gradient(left, rgba(107,77,168,0.85) 0%, rgba(73,119,194,0.85) 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(left, rgba(107,77,168,0.85) 0%, rgba(73,119,194,0.85) 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to right, rgba(107,77,168,0.85) 0%, rgba(73,119,194,0.85) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	background: -moz-linear-gradient(top,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d96b4da8', endColorstr='#d94977c2', GradientType=1 ); /* IE6-9 */
 }
 #contact h2 {
