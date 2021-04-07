@@ -203,7 +203,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	width: 100%;
 	height: auto;
 	text-align: center;
-	color: #0000;
+	color: #fff;
 	background: url(../img/little-slough.jpg) no-repeat center center ;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
